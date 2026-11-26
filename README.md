@@ -30,7 +30,7 @@ python -m pip install -r requirements.txt
 Start the app from the activated environment.
 
 ```bash
-python main.py
+python3 main.py
 ```
 
 Choose a supported WAV file in the picker. A **16-bit PCM WAV** is a good first test. Some files with a `.wav` extension use encodings that SciPy's WAV reader does not support, such as A-law.
